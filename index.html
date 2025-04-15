@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Microdosing Stacks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 16px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th {
+        display: none;
+      }
+      td {
+        position: relative;
+        padding-left: 50%;
+      }
+      td::before {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 45%;
+        white-space: nowrap;
+        font-weight: bold;
+      }
+      td:nth-of-type(1)::before { content: "Stack Name"; }
+      td:nth-of-type(2)::before { content: "Purpose"; }
+      td:nth-of-type(3)::before { content: "Key Ingredients"; }
+      td:nth-of-type(4)::before { content: "Best Use"; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Microdosing Stacks</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Stack Name</th>
+        <th>Purpose</th>
+        <th>Key Ingredients</th>
+        <th>Best Use</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Stamets Stack</td>
+        <td>Support neurogenesis and cognitive function</td>
+        <td>Psilocybin microdose, Lion’s Mane, Niacin (Vitamin B3)</td>
+        <td>5 days on, 2 days off</td>
+      </tr>
+      <tr>
+        <td>Fadiman Protocol</td>
+        <td>Enhance mood and creativity</td>
+        <td>Psilocybin microdose</td>
+        <td>1 day on, 2 days off</td>
+      </tr>
+      <tr>
+        <td>Neuro Stack</td>
+        <td>Boost cognitive performance and mental clarity</td>
+        <td>Psilocybin microdose, Lion’s Mane, Alpha-GPC</td>
+        <td>Morning, alternating days</td>
+      </tr>
+      <tr>
+        <td>Adaptogen Stack</td>
+        <td>Increase resilience to stress and improve well-being</td>
+        <td>Psilocybin microdose, Rhodiola Rosea, Ashwagandha</td>
+        <td>Morning, three times a week</td>
+      </tr>
+      <tr>
+        <td>Creativity Stack</td>
+        <td>Enhance creative thinking and problem-solving abilities</td>
+        <td>Psilocybin microdose, Ginkgo Biloba, Panax Ginseng</td>
+        <td>Before creative tasks, up to twice a week</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
